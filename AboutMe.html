@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>About me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@200;300;400;500;600;700;800;900&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .section {
+            width: 100%;
+            min-height: 100vh;
+            background-color: black;
+        }
+        
+        .container {
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding-top: 100px;
+        }
+        
+        .content-section {
+            float: left;
+            width: 55%;
+        }
+        
+        .image-section {
+            float: right;
+            width: 40%;
+        }
+        
+        .image-section img {
+            float: right;
+            height: auto;
+            width: 50%;
+            padding: right 40px;
+        }
+        
+        .content-section .title {
+            font-size: 28px;
+            text-transform: uppercase;
+            color: white;
+        }
+        
+        .content-section .content p {
+            margin-top: 17px;
+            color: #fff;
+            font-family: sans-serif;
+            line-height: 1.5;
+        }
+        
+        .content-section .social {
+            margin-top: 40px;
+        }
+        
+        .content-section .social i {
+            color: #fff;
+            font-size: 30px;
+            padding: 0px 10px;
+        }
+        
+        .content-section .social i:hover {
+            color: #3d3d3d;
+        }
+        
+        header {
+            background-color: black;
+            background-size: cover;
+            position: relative;
+            color: white;
+            min-height: 40px;
+            justify-content: right;
+        }
+        
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+            justify-content: center;
+            align-content: center;
+            background-color: black;
+            display: block;
+            color: white;
+            min-width: 40px;
+            text-align: center;
+        }
+        
+        .navi {
+            padding: 0;
+            text-align: center;
+            color: white;
+            float: right;
+        }
+        
+        .navi li {
+            display: inline;
+        }
+        
+        .navi a {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        @media only screen and (max-width:1000px) {
+            .container {
+                width: 80%;
+                display: block;
+                margin: auto;
+                padding-top: 50px;
+            }
+            .content-section {
+                float: none;
+                width: 100%;
+                margin: auto;
+                display: block;
+            }
+            .image-section {
+                height: auto;
+                width: 100%;
+            }
+            .image-section img {
+                text-align: center;
+                float: none;
+                padding-top: 20px;
+                width: 20%;
+                margin: auto;
+                display: block;
+            }
+            .content-section .title {
+                font-size: 19px;
+                text-align: center
+            }
+            .content-section .social {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="navi">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./cv.html ">Product</a></li>
+            <li><a href="./AboutMe.html">About Me</a></li>
+            <li><a href="./Contact-Us.html ">Contact Us</a></li>
+        </ul>
+    </header>
+    <div class="section">
+        <div class="container">
+
+            <div class="content-section">
+                <div class="title">
+                    <h1>About Me</h1>
+                </div>
+                <div class="content">
+                    <p>Hi, saya adalah web developer . Saat ini sedang belajar HTML di Website Pak Fajar.</p>
+                    <p>Saya senang masih baru dalam web development. Karena itu, saya tidak akan pernah berhenti belajar</p>
+                    <p>Saya ingin menguasai bahasa HTML, CSS san Javascript.</p>
+                </div>
+                <div class="iframe-container">
+                </div>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <img src="./assets/ghifari1.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <footer>
+            <p class="footer-title" style="text-align:center;font-size: 16px; font-weight: bold;">© Ghifari</p>
+        </footer>
+    </footer>
+</body>
+
+</html>

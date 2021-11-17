@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" />
+    <title>Download CV</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    <style>
+        .navi {
+            padding: 0;
+            text-align: center;
+            color: white;
+            float: right;
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background-color: #12172b;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        .navi li {
+            display: inline;
+        }
+        
+        .navi a {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+            justify-content: center;
+            align-content: center;
+            display: block;
+            color: white;
+            min-width: 40px;
+            text-align: center;
+        }
+        
+        header {
+            position: relative;
+            color: white;
+            min-height: 40px;
+            justify-content: right;
+        }
+        
+        .container {
+            height: 120vh;
+            position: relative;
+            padding: 20px 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-size: cover;
+        }
+        
+        .container .child {
+            max-width: 800px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container .child h1 {
+            font-size: 36px;
+            font-weight: 600px;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="navi ">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./cv.html ">Product</a></li>
+            <li><a href="./AboutMe.html">About Me</a></li>
+            <li><a href="./Contact-Us.html ">Contact Us</a></li>
+        </ul>
+    </header>
+    <div class="container">
+
+        <div class="child">
+            <h1>My CV</h1>
+            <iframe src="./assets/mycv.pdf" height="200" width="200"></iframe>
+            <br>
+            <a href="./assets/mycv.pdf" download="Ghifari's CV" class="btn btn-outline-light mt-3">Click here to
+                Download</a>
+        </div>
+        <br>
+        <br>
+        <div class="child">
+            <h1 style="justify-content: center; text-align:center;">Portofolioku</h1>
+            <div class="d-flex flex-row">
+                <div class="w-30 p-5 text-center">
+                    <img src="./assets/biodata.png " alt="Portofolio 1" width="125%">
+                    <br>
+                    <a href="https://ghif-bot.github.io/ghifari1202.github.io/" class="btn btn-outline-light mt-3">Tekan</a>
+                </div>
+                <div class="w-30 p-5 text-center">
+                    <img src="./assets/warung.png" alt="Portofolio 2" width="125%">
+                    <br>
+                    <a href="https://ghif-bot.github.io/WartegGhif.io/" class="btn btn-outline-light mt-3">Tekan</a>
+                </div>
+                <div class="w-30 p-5 text-center">
+                    <img src="./assets/makanan.png" alt="Portofolio 3" width="125%">
+                    <br>
+                    <a href="https://ghif-bot.github.io/katalog-makanan.io/" class="btn btn-outline-light mt-3">Tekan</a>
+                </div>
+                <div class="w-30 p-5 text-center">
+                    <img src="./assets/login.png" alt="Portofolio 3" width="125%">
+                    <br>
+                    <a href="https://ghif-bot.github.io/bootstrap-login-and-send-message.io/" class="btn btn-outline-light mt-3">Tekan</a>
+                </div>
+
+                <div class="w-30 p-5 text-center">
+                    <img src="./assets/form.png" alt="Portofolio 3" width="125%">
+                    <br>
+                    <a href="https://ghif-bot.github.io/Form-Validasi.io/" class="btn btn-outline-light mt-3">Tekan</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p class="footer-title" style="text-align:center;font-size: 16px; font-weight:bold;">© Ghifari</p>
+    </footer>
+</body>
+
+</html>

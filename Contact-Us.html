@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=secti, initial-scale=1.0">
+    <title>Contact-Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@200;300;400;500;600;700;800;900&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        header {
+            background-color: black;
+            background-size: cover;
+            position: relative;
+            color: white;
+            min-height: 40px;
+            justify-content: right;
+        }
+        
+        .contact {
+            position: relative;
+            min-height: 100vh;
+            padding: 50px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: black;
+            background-size: cover;
+        }
+        
+        .contact .content {
+            max-width: 800px;
+            text-align: center;
+        }
+        
+        .contact .content h2 {
+            font-size: 36px;
+            font-weight: 600px;
+            color: #fff;
+        }
+        
+        .contact .content p {
+            font-weight: 300px;
+            color: #fff;
+        }
+        
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        
+        .container .contactInfo {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container .contactInfo .box {
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+        
+        .container .contactInfo .box .icon {
+            min-width: 60px;
+            height: 60px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 24px;
+        }
+        
+        .container .contactInfo .box .text {
+            display: flex;
+            margin-left: 20px;
+            font-size: 15px;
+            color: #fff;
+            flex-direction: column;
+            font-weight: 300;
+        }
+        
+        .container .contactInfo .box .h3 {
+            font-weight: 500;
+            color: #00bcd4;
+        }
+        
+        .contactForm {
+            width: 40%;
+            padding: 40px;
+            background: #fff;
+        }
+        
+        .contactForm h2 {
+            font-size: 30px;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .contactForm .inputBox {
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .contactForm .inputBox input,
+        .contactForm .inputBox textarea {
+            width: 100%;
+            padding: 5px 0px;
+            font-size: 16px;
+            margin: 10px 0px;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+            resize: none;
+        }
+        
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+            justify-content: center;
+            align-content: center;
+            background-color: black;
+            display: block;
+            color: white;
+            min-width: 40px;
+            text-align: center;
+        }
+        
+        .contactForm .inputBox span {
+            position: absolute;
+            left: 0;
+            padding: 5px 0px;
+            font-size: 16px;
+            margin: 10px 0px;
+            pointer-events: none;
+            transition: 0.5s;
+            color: #666;
+        }
+        
+        .contactForm .inputBox input:focus~span,
+        .contactForm .inputBox input:valid~span,
+        .contactForm .inputBox textarea:focus~span,
+        .contactForm .inputBox textarea:valid~span {
+            color: #e91e63;
+            font-size: 12px;
+            transform: translateY(-20px);
+        }
+        
+        .contactForm .inputBox input[type="submit"] {
+            width: 100px;
+            background: lightblue;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+        }
+        
+        .navi {
+            padding: 0;
+            text-align: center;
+            color: white;
+            float: right;
+        }
+        
+        .navi li {
+            display: inline;
+        }
+        
+        .navi a {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        @media (min-width: 1000px) {
+            .contact {
+                padding: 50px;
+            }
+            .container .contactInfo {
+                margin-bottom: 40px;
+            }
+            .container .contactInfo,
+            .contactForm {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="navi">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./cv.html ">Product</a></li>
+            <li><a href="./AboutMe.html">About Me</a></li>
+            <li><a href="./Contact-Us.html ">Contact Us</a></li>
+        </ul>
+    </header>
+    <div class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipising non proident, sed do eiusmod tempor incididunt</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Alamat</h3>
+                        <p>Jalan Teknik Komputer No 202 Keputih,<br> Sukolilo Surabaya Jawa Timur <br>60111</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>0896-1522-3861</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>ghifariastaudi@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p class="footer-title" style="text-align:center;font-size: 16px; font-weight:bold;">© Ghifari</p>
+    </footer>
+</body>
+
+</html>

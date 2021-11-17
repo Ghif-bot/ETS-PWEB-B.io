@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous" ">
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap ");
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #12172b;
+    font-family: "Poppins ", sans-serif;
+}
+
+.container {
+    margin: 20px 40px;
+    color: white;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+.profile {
+    flex-basis: 260px;
+}
+
+.profile .profile-img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.profile:hover .profile-img {
+    filter: grayscale(0);
+}
+
+.name {
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.profile h5 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+
+header {
+    background-size: cover;
+    position: relative;
+    color: white;
+    min-height: 40px;
+    justify-content: right;
+}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+    justify-content: center;
+    align-content: center;
+    display: block;
+    color: white;
+    min-width: 40px;
+    text-align: center;
+}
+
+.navi {
+    padding: 0;
+    text-align: center;
+    color: white;
+    float: right;
+}
+
+.navi li {
+    display: inline;
+    color: white;
+}
+
+.navi a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.table-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+.table-content2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 80px;
+}
+
+.table-content table,
+.table-content2 table {
+    border-collapse: collapse;
+}
+
+.table-content table td,
+.table-content table th,
+.table-content2 table td,
+.table-content2 table th {
+    font-weight: 600;
+    padding: 4px 7px;
+}
+
+.table-content table td,
+.table-content2 table td {
+    color: white;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <ul class="navi ">
+            <li><a href="./index.html ">Home</a></li>
+            <li><a href="./cv.html ">Product</a></li>
+            <li><a href="./AboutMe.html ">About Me</a></li>
+            <li><a href="./Contact-Us.html ">Contact Us</a></li>
+        </ul>
+    </header>
+    <div class="container ">
+
+        <div class="profiles ">
+            <div class="profile ">
+                <img src="./assets/ghifari1.jpeg " class="profile-img ">
+                <h3 class="name ">Ghifari</h3>
+                <h5>Creative Director</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eveniet soluta hic sunt sit reprehenderit.</p>
+            </div>
+        </div>
+        <div class="table-content ">
+            <table align="center ">
+                <tr>
+                    <td align="center "><b>Jenjang Pendidikan</b></td>
+                    <td align="center "><b>Keterangan</b></td>
+                    <td align="center "><b>Tahun</b></td>
+                </tr>
+                <tr>
+                    <td>Sekolah Dasar</td>
+                    <td>SDN 04 SUMBERBERAS</td>
+                    <td>2007 - 2013</td>
+                </tr>
+                <tr>
+                    <td>Sekolah Menengah Pertama</td>
+                    <td>SMPN 01 SRONO</td>
+                    <td>2013 - 2016</td>
+                </tr>
+                <td>Sekolah Menengah Atas</td>
+                <td>SMAN 01 GENTENG</td>
+                <td>2016 - 2019</td>
+                </tr>
+                <tr>
+                    <td>Perguruan Tinggi</td>
+                    <td>ITS Surabaya</td>
+                    <td>2019 - Now</td>
+                </tr>
+            </table>
+        </div>
+        <div class="table-content2 ">
+            <table align="center ">
+                <tr>
+                    <td align="center " colspan="3 "><b>Skill</b></td>
+                </tr>
+                <tr>
+                    <td>CPP</td>
+                    <td>JAVASCRIPT</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>C</td>
+                    <td>etc</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <footer>
+            <p class="footer-title " style="text-align:center;font-size: 16px; font-weight: bold; ">© Ghifari</p>
+        </footer>
+    </footer>
+</body>
+
+</html>
